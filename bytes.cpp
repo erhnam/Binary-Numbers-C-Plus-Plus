@@ -34,8 +34,8 @@ int main(){
 	cout << "\nDecimal a \033[1;32m" << a.to_ulong() << "\033[0m is in binary \033[1;36m" << a << "\033[0m" << endl;
 	cout << "Decimal b \033[1;32m" << b.to_ulong() << "\033[0m is in binary \033[1;36m" << b << "\033[0m" << endl;
 
-    c2 = ((byte)a.to_ulong()).flip().to_ulong()+1;
- 
+	c2 = ((byte)a.to_ulong()).flip().to_ulong()+1;
+
 	cout << endl;
 	cout << "\033[1;34m OPERATOR     " << "DECIMAL     " << "RESULT\033[0m" << endl;
 	cout << "---------------------------------"<< endl;
