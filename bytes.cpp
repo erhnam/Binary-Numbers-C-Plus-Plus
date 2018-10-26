@@ -1,12 +1,5 @@
-/*
-g++ -o bytes.out bytes.cpp 
-chmod +x bytes.out
-./bytes.out
-*/
-
 #include <iostream>
 #include <bitset>
-#include <string>
 
 using namespace std;
 
